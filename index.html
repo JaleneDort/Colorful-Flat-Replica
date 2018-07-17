@@ -4,17 +4,159 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--TITLE -->
-		<title></title>
+		<title>COLORFUL FLAT REPLICA</title>
 	<!-- BOOTSTRAP -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<!--FONTAWESOME -->
+	
+	<!-- GOOGLE FONTS-->
+		<!-- I don't know why this isn't working... <link href='https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyDf4LMwrnvyCGil_lO2TmiP2TrqRuE8bVU' rel='stylesheet' type='text/css'> -->
+
+		<!-- INDIVIDUAL GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat" rel="stylesheet">
+		<!--FONTAWESOME FOR ICONS -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 <!-- ALL MY CODE -->
+	
+	<!-- NAVBAR -->
+			<!-- COLORFULFLAT LOGO -->	 
+			<nav class="navbar navbar-expand-lg navbar-light skyblue">
+			  <!-- HEART -->
+			  <i class="fas fa-heart ml-5 pl-5"></i>
+			  <!--COLORFUL FLAT BRAND -->
+			  <a class="navbar-brand ml-2" href="#">COLORFUL FLAT</a>
+			  <!--TOGGLER -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
 
-<!-- **TEMPLATE with Bootstrap CDN** -->
+			  <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+			    <ul class="navbar-nav ml-auto mr-5 pr-5">
+
+			      <!--HOME -->
+			      <li class="nav-item">
+			        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a></button>
+			      </li>
+			      <!--SERVICES -->
+			      <li class="nav-item">
+			        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link" href="#services">Services</a></button>
+			      </li>
+			      <!--PORTFOLIO -->
+			      <li class="nav-item">
+			        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link" href="#portfolio">Portfolio</a></button>
+			      </li>
+			      <!--BLOG -->
+			       <li class="nav-item">
+			        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link" href="#blog">Blog</a></button>
+			      </li>
+			      <!--CONTACT -->
+			       <li class="nav-item">
+			        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link" href="#contact">Contact</a></button>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+							
+	<!-- HOME - FIRST BLOCK - LIGHT BLUE BACKGROUND -->
+
+	<a id="#home"></a>
+		<div class="container-fluid skyblue pt-5">
+			<div class="row">
+				<div class="col-6 text-center skyblock-font pt-5">THIS TEMPLATE<br>IS AWESOME!</div>
+				<div class="col-6 font-weight-bold pb-5"><img src="img/desktop-mac.png"></div>
+			</div>
+		</div>
+		<!-- CAROSUSEL CIRCLES -->
+		<div id= "circles" class="container-fluid skyblue pb-3 text-center">
+				<i class="fa fa-circle px-1" aria-hidden="true"></i>
+				<!-- I wanted to use the Font Awesome Icon for "Circle Thin" but when I pasted the code here these secondary circles then disappeared... so for now I will use the full circles as place holders. I believe this actually should be a Carousel of images so the circles are arbitrary but I wanted to figure out a placeholder for design purposes for now until I correct this code once I figure out what is overriding my "Circle Thin" code. -->
+				<!-- THIS IS THE THIN CIRCLE CODE -->
+				<!-- <i class="fa fa-circle-thin" aria-hidden="true"></i> -->
+				<!-- REPEAT OF FILLED CIRCLE CODE AS PLACE HOLDERS -->
+				<i class="fa fa-circle px-1" aria-hidden="true"></i>
+				<i class="fa fa-circle px-1" aria-hidden="true"></i>
+			</div>
+		</div>
+
+
+	<!-- SERVICE - SECOND BLOCK - WHITE BACKGROUND-->
+	
+	<a id="#services"></a>
+		<div class="container">
+			<div class="row my-5 text-center">
+				<!-- FLAT DESIGN -->
+				<div class="col-4 mx-auto">
+					<a><img class="img-fluid" src="img/monitor.png" alt="Graphic of a computer monitor"></a>
+					<h2>Flat Design</h2>
+					<p id="sample-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
+				<!-- GREAT IDEAS -->
+				<div class="col-4 mx-auto">
+					<a><img class="img-fluid" src="img/lightbulb.jpg" alt="Graphic of a Light Bulb turned on"></a>
+					<h2>Great Ideas</h2>
+					<p id="sample-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<!-- Browser Compatibility-->
+				<div class="col-4 mx-auto">
+					<a><img class="img-fluid" src="img/website.png" alt="Image of Website Address Bar"></a>
+					<h2>Browser Compatibility</h2>
+					<p id="sample-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+
+	<!-- PORTFOLIO - THIRD BLOCK - MINT GREEN BACKGROUND-->
+	
+	<a id="#portfolio"></a>
+		<div class="container-fluid mint-green pt-2">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1 class="portfolio-title">RECENT WORKS</h1>
+				</div>
+				<div class="col-12 mx-auto">
+					<p class="sample-text-white text-center">Lorem ipsum dolor sit amet, at sea omnes philosophia, ut paulo<br>Sit nemore alienum eu, id vel ancillae eloquentiam... <br>
+				</div>
+
+				<!-- PORTFOLIO NAVBAR -->
+				<div class="row">
+					<div class="col-12 text-center">
+						<nav class="navbar navbar-expand-lg portfolio-navbar">
+						  <!--TOGGLER -->
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse" id="navbarNav">
+						    <ul class="navbar-nav text-center">
+
+						      <!--ALL -->
+						      <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">ALL<span class="sr-only">(current)</span></a></button>
+						      </li>
+						      <!--WEB -->
+						      <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">WEB</a></button>
+						      </li>
+						      <!--MOBILE -->
+						      <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">MOBILE</a></button>
+						      </li>
+						      <!--PHOTOGRAPHY -->
+						       <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">PHOTOGRAPHY</a></button>
+						      </li>
+						      <!--DESIGN -->
+						      <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">DESIGN</a></button>
+						      </li>
+						      <!--TYPE -->
+						      <li class="nav-item-portfolio">
+						        <button type="button" class="btn btn-link btn-sm font-weight-bold"><a class="nav-link text-white" href="#">TYPE</a></button>
+						      </li>
+					    	</ul>
+
 
 <!-- SCRIPTS -->
 	<!-- jquery --->

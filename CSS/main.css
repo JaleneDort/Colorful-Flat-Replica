@@ -1,1 +1,110 @@
 
+body {
+	color: #3e494d;
+}
+
+/* NAVBAR */
+
+.fa-heart {
+	font-color: #3e494d
+}
+
+.navbar-brand {
+	font-family: Courier;
+	font-weight: bolder;
+}
+
+.nav-item {
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #a7d3dc;
+	font-weight: bolder;
+	/*text-decoration: none; */
+	/* Text Decoration didn't work here either*/
+}
+
+
+/* FIRST BLOCK - LIGHT BLUE BACKGROUND */
+
+.skyblock-font {
+	font-family: Courier;
+	color: white;
+	font-size: 30px;
+	line-height: 25px
+}
+
+.skyblue {
+	background-color: #a7d3dc;
+}
+
+.fa-circle {
+	color: white;
+	display: inline-block;
+}
+
+/*.fa-circle-thin {
+	color: white;
+	display: inline-block;*/
+}
+.fa-skyblue {
+	color: white;
+}
+
+.img-fluid {
+	max-height: 100px;
+	padding-bottom: 5px;
+}
+
+
+#circles {
+	display: inline-block;
+}
+
+
+/* SECOND BLOCK - WHITE BACKGROUND */
+
+h2 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px
+}
+
+#sample-text {
+	text-align: center;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+
+/* THIRD BLOCK - MINT GREEN BACKGROUND */
+
+.mint-green {
+	background-color: #96d1a3;
+}
+
+.portfolio-title {
+	padding-top: 10px;
+	font-family: Courier;
+	color: white; 
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.sample-text-white {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.portfolio-navabr {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	}
+
+.nav-item-portfolio {
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+
+}
