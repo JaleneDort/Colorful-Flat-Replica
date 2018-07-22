@@ -3,7 +3,7 @@ body {
 	color: #3e494d;
 }
 
-/* NAVBAR */
+/** NAVBAR **/
 
 .fa-heart {
 	font-color: #3e494d
@@ -12,24 +12,27 @@ body {
 .navbar-brand {
 	font-family: Courier;
 	font-weight: bolder;
+	padding-left: 5px;
 }
 
 .nav-item {
 	font-family: 'Fjalla One', sans-serif;
 	background-color: #a7d3dc;
 	font-weight: bolder;
+	font-size: 16px;
 	/*text-decoration: none; */
 	/* Text Decoration didn't work here either*/
 }
 
 
-/* FIRST BLOCK - LIGHT BLUE BACKGROUND */
+/** FIRST BLOCK - LIGHT BLUE BACKGROUND **/
 
 .skyblock-font {
 	font-family: Courier;
 	color: white;
 	font-size: 30px;
-	line-height: 25px
+	line-height: 25px;
+	font-weight: bold;
 }
 
 .skyblue {
@@ -60,7 +63,7 @@ body {
 }
 
 
-/* SECOND BLOCK - WHITE BACKGROUND */
+/** SECOND BLOCK - WHITE BACKGROUND **/
 
 h2 {
 	color: black;
@@ -77,7 +80,7 @@ h2 {
 }
 
 
-/* THIRD BLOCK - MINT GREEN BACKGROUND */
+/** THIRD BLOCK - MINT GREEN BACKGROUND **/
 
 .mint-green {
 	background-color: #96d1a3;
@@ -87,24 +90,160 @@ h2 {
 	padding-top: 10px;
 	font-family: Courier;
 	color: white; 
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
 }
 
 .sample-text-white {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
+	color: white;
+	font-weight: normal;
 }
 
 .portfolio-navabr {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 	}
 
 .nav-item-portfolio {
 	color: white;
 	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
 
+}
+
+.btn-sm {
+	font-size: 10px;
+	padding: 10px;
+	color: grey;
+	text-align: center;
+}
+
+.img-fluid-mint {
+	max-height: 200px;
+}
+
+.btn-portfolio {
+	font-size: 10px;
+	padding: 6px;
+	margin-bottom: 30px;
+}
+
+
+/** FOURTH BLOCK - LIGHT GREY BACKGROUND **/
+
+.light-grey {
+	background-color: #f0f0f0;
+}
+
+h3 {
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 16px;
+}
+
+#template-font {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+}
+
+.btn-template {
+	background-color: #96d1a3;
+	color: white;
+}
+
+.btn-template-blue {
+	background-color: #a7d3dc;
+	color: white;
+}
+
+.pst-green {
+	padding-right: 10px;
+}
+
+.pst-blue {
+	padding-right: 40px;
+}
+
+
+
+/** FIFTH BLOCK - PALE PINK BACKGROUND **/
+
+.pale-pink {
+	background-color: #e0b7c7;
+}
+
+.meet-our-team-title {
+	padding-top: 15px;
+	font-family: Courier;
+	color: white; 
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.profilelight {
+	background-color: #e4e6e7;
+}
+
+.name {
+	font-size: 26px;
+	font-family: 'Bree', serif;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+#john-smith-bio {
+	font-family: 'Dosis', sans-serif;
+	font-size: 10px;
+	color: black;
+}
+
+/* Facebook Icon*/
+
+.facebook-dot {
+	height: 20px;
+	width: 20px;
+	background-color: #2a46a9;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.fa-facebook {
+	color: white;
+}
+
+/* Twitter Icon */
+
+.twitter-dot {
+	height: 20px;
+	width: 20px;
+	background-color: #2ba2e9;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+/* Pinterest Icon */
+
+.pinterest-dot {
+	height: 20px;
+	width: 20px;
+	background-color: #b61b38;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.fa-pinterest-p {
+	color: white;
 }
