@@ -313,7 +313,7 @@ h4 {
 	display: inline-block;
 }
 
-.fa-facebook {
+.fa-facebook-grey {
 	color: #3c3c3c;
 }
 
@@ -327,13 +327,13 @@ h4 {
 	display: inline-block;
 }
 
-.fa-twitter {
+.fa-twitter-grey {
 	color: #3c3c3c;
 }
 
-/* Pinterest Icon */
+/* HTML Icon */
 
-.pinterest-dot-grey {
+.html-dot-grey {
 	height: 20px;
 	width: 20px;
 	background-color: #535353;
@@ -341,7 +341,21 @@ h4 {
 	display: inline-block;
 }
 
-.fa-pinterest-p {
+.fa-html5 {
+	color: #3c3c3c;
+}
+
+/* CODEPEN Icon */
+
+.codepen-dot-grey {
+	height: 20px;
+	width: 20px;
+	background-color: #535353;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.fa-codepen-grey {
 	color: #3c3c3c;
 }
 
